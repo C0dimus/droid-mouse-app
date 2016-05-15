@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_start_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_start_ip"
+        android:layout_alignParentTop="true"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:text="@string/ip_label" />
+
+    <EditText
+        android:id="@+id/et_start_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_start_ip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:digits="0123456789.:"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="time"
+        android:imeOptions="actionGo"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rect"
+        android:textColor="#000" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bt_start_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_start_ip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:textColor="#000"
+        android:background="@drawable/rect_selector"
+        android:text="@string/button_login" />
+
+</RelativeLayout>

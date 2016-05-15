@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory 
+        android:title="@string/category_ui">
+	    <ListPreference 
+	        android:key= "@string/BUTTONS_KEY"
+	        android:title="@string/preference_buttons"
+	        android:dialogTitle="@string/preference_buttons"
+	        android:entries="@array/button_entries"
+	        android:entryValues="@array/button_values"
+	        android:defaultValue="@string/BUTTONS_BOTTOM"/>
+	    
+	    <ListPreference 
+	        android:key="@string/SCROLL_KEY"
+	        android:title="@string/preference_scroll"
+	        android:dialogTitle="@string/preference_scroll"
+	        android:entries="@array/scroll_entries"
+	        android:entryValues="@array/scroll_values"
+	        android:defaultValue="@string/SCROLL_RIGHT"/>
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:title="@string/categoty_sensitivity">
+	    <com.asdeveloper.droidmouse.settings.IntEditTextPreference
+	        android:key="@string/MOUSE_SENSITIVE_KEY"
+	        android:title="@string/preference_mouse_sen"
+	        android:dialogTitle="@string/summary_sensitivity"
+	        android:summary="@string/summary_sensitivity"
+	        android:numeric = "integer"
+	        android:maxLength = "3"
+	        android:defaultValue="@string/default_mouse_sen"/>
+	    <com.asdeveloper.droidmouse.settings.IntEditTextPreference
+	        android:key="@string/SCROLL_SENSITIVE_KEY"
+	        android:title="@string/preference_scroll_sen"
+	        android:dialogTitle="@string/summary_sensitivity"
+	        android:summary="@string/summary_sensitivity"
+	        android:numeric = "integer"
+	        android:maxLength = "3"
+	        android:defaultValue="@string/default_scroll_sen"/>
+	  	<com.asdeveloper.droidmouse.settings.IntEditTextPreference
+	  	    android:key="@string/ACCELETOMETER_KEY"
+	        android:title="@string/preference_accelerometer"
+	        android:dialogTitle="@string/summary_accelerometer"
+	        android:summary="@string/summary_accelerometer"
+	        android:numeric = "integer"
+	        android:maxLength = "4"
+	        android:defaultValue="@string/default_accelerometer"/>
+
+	    	
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/category_others">
+        <SwitchPreference
+            android:key="@string/RESTORE_TIPS_KEY"
+            android:title="@string/preference_tips"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

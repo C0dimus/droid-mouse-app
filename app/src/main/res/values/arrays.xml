@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="button_entries">
+    	<item>Góra ekranu</item>
+    	<item>Dół ekranu</item>
+    </string-array>
+    <string-array name="button_values">
+        <item>@string/BUTTONS_TOP</item>
+        <item>@string/BUTTONS_BOTTOM</item>
+    </string-array>
+    
+    <string-array name="scroll_entries">
+        <item>Po lewej stronie</item>
+        <item>Po prawej stronie</item>
+    </string-array>
+    <string-array name="scroll_values">
+        <item>@string/SCROLL_LEFT</item>
+        <item>@string/SCROLL_RIGHT</item>
+    </string-array>
+    
+</resources>

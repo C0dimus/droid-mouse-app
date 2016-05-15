@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="app_name">Droid Mouse</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_keyboard">Klawiatura</string>
+	<string name="action_accelerometer">Akcelerometr</string>
+    
+	<!--  main activity -->
+	<string name="checkBoxLive">Przesyłaj</string>
+    <string name="buttonSend">Wyślij</string>
+	<string name="buttonLeft">&lt;&lt;&lt;</string>
+	<string name="buttonWheel">o</string>
+	<string name="buttonRight">&gt;&gt;&gt;</string>
+	<string name="arrUp">^</string>
+	<string name="arrDown">v</string>
+	<string name="send">Wyślij</string>
+	<string name="enter">[Enter]</string>
+	
+	<!--  start activity -->
+	<string name="ip_label">Adres IP:</string>
+	<string name="button_login">Połącz</string>	
+	    
+	<!-- preferences -->
+	<string name="category_ui">Ustawienia interfejsu</string>
+	<string name="BUTTONS_KEY">BUTTONS_KEY</string>
+	<string name="preference_buttons">Pozycja przycisków</string>
+	<string name="BUTTONS_TOP">TOP</string>
+	<string name="BUTTONS_BOTTOM">BOTTOM</string>
+	<string name="SCROLL_KEY">SCROLL_KEY</string>
+	<string name="preference_scroll">Pozycja paska przewijania</string>	
+	<string name="SCROLL_LEFT">LEFT</string>
+	<string name="SCROLL_RIGHT">RIGHT</string>
+	
+	<string name="categoty_sensitivity">Ustawienia czułości</string>
+	<string name="MOUSE_SENSITIVE_KEY">MOUSE_SENSITIVE_KEY</string>
+	<string name="preference_mouse_sen">Czułość myszki</string>
+	<string name="default_mouse_sen">"30"</string>
+	<string name="SCROLL_SENSITIVE_KEY">SCROLL_SENSITIVE_KEY</string>
+	<string name="preference_scroll_sen">Czułość przewijania</string>
+	<string name="default_scroll_sen">"2"</string>
+	<string name="summary_sensitivity">Wieksza wartość = większy opór</string>
+	<string name="ACCELETOMETER_KEY">ACCELETOMETER_KEY</string>
+	<string name="preference_accelerometer">Opóźnienie akcelerometru</string>
+	<string name="default_accelerometer">0</string>
+	<string name="summary_accelerometer">Wartość podana w milisekundach</string>
+	
+	<string name="category_others">Inne ustawienia</string>
+	<string name="RESTORE_TIPS_KEY">RESTORE_TIPS_KEY</string>
+	<string name="preference_tips">Resetuj porady</string>
+	<string name="ERROR_KEY">ERROR_KEY</string>
+	<string name="MAIN_KEY">MAIN_KEY</string>
+	<string name="KEYBOARD_KEY">KEYBOARD_KEY</string>
+	<string name="CLOSE_KEY">CLOSE_KEY</string>
+	
+	<!-- utils -->
+	<string name="alert_title_error">Błąd połączenia!</string>
+	<string name="alert_msg_error">Nie można połączyć z serwerem!\n
+	    Możliwe przyczyny błędu:\n
+	    1. Aplikacja serwera nie została uruchomiona na komputerze\n
+	    2. Komputer i telefon nie są podłączeni do tej samej sieci\n
+	    3. Wpisano inny adres IP niż wyświetlany w aplikacji serwera\n\n
+	    Jeżeli po sprawdzeniu tych warunków nadal nie ma połączenia,
+	    należy zresetować adres IP w aplikacji serwera. </string>
+	<string name="alert_title_tip">Porada</string>
+	<string name="alert_msg_mainTip"><b>Witaj w aplikacji Droid Mouse\n</b>
+	    To Twoje pierwsze uruchomienie wiec pomogę Ci wyświetlająć w różnych miejscach porady takie jak ta.\n
+	    Jeżeli zechesz obejrzeć te porady ponownie możesz zresetować je w ustawieniach.
+	</string>
+	<string name="alert_msg_keyboardTip">Za pomocą tej opcji możesz wysyłać tekst do komputera\n
+	    Jeżeli chesz, aby tekst był wysyłany na bieżąco zaznacz checkbox <i>Przesyłaj</i>\n
+	    Zamknąć klawiaturę możesz poprzez naciśnięcie na obszar poza klawiaturą.
+	</string>
+	<string name="alert_msg_closeTip">Przytrzymująć ten klawisz zamkniesz także aplikację serwera.</string>
+	
+	<string name="toast_wifi_disabled">Moduł <b>Wi-Fi</b> wyłączony\nSprawdź ustawienia</string>
+	
+</resources>
